@@ -1,0 +1,41 @@
+---
+const personalImageAlt = "David Fernandez";
+---
+
+<article
+  class="flex flex-col items-center justify-center gap-8 text-gray-700 dark:text-gray-300 md:flex-row"
+>
+  <div
+    class="[&>p]:mb-4 [&>p>strong]:text-orange-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1"
+  >
+    <p>
+      Me llamo David y acabo de terminar el ciclo superior de <strong>Desarrollo de Aplicaciones
+      Multiplataforma</strong>. Durante estos dos años he trabajado con <strong
+        >Java, MySQL, introducción al desarrollo web, y he desarrollado una app
+        Android</strong
+      > usando Kotlin y Firebase.
+    </p>
+
+    <p>
+      Hice mis prácticas en una empresa que desarrolla software ERP, donde pude
+      colaborar en tareas reales del día a día. Fue mi primera experiencia
+      trabajando con código que usan clientes, y aprendí mucho más de lo que
+      esperaba sobre el sector y el desarrollo de software para clientes.
+    </p>
+
+    <p>
+      Ahora mismo estoy aprendiendo <strong>Python</strong> por mi cuenta para mejorar mis habilidades y sigo haciendo pequeños
+      proyectos para seguir mejorando como desarrollador.
+
+    </p>
+  </div>
+
+  <img
+    width="200"
+    height="200"
+    src="/projects/minifoto.jpg"
+    alt={personalImageAlt}
+    class="order-1 object-cover w-64 h-full p-1 md:order-2 rotate-3 lg:p-2 lg:w-64 aspect-square rounded-2xl bg-black/20 dark:bg-orange-500/5 ring-1 ring-black/70 dark:ring-white/20"
+    style="object-position: 50% 50%"
+  />
+</article>
